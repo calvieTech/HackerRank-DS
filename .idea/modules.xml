@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/0_ArrayList/0_ArrayList.iml" filepath="$PROJECT_DIR$/0_ArrayList/0_ArrayList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10_Heaps/10_Heaps.iml" filepath="$PROJECT_DIR$/10_Heaps/10_Heaps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11_getMediansWithHeap/11_getMediansWithHeap.iml" filepath="$PROJECT_DIR$/11_getMediansWithHeap/11_getMediansWithHeap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12_Anagram/12_Anagram.iml" filepath="$PROJECT_DIR$/12_Anagram/12_Anagram.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13_HashTables/13_HashTables.iml" filepath="$PROJECT_DIR$/13_HashTables/13_HashTables.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1_BalancedParantheses/1_BalancedParantheses.iml" filepath="$PROJECT_DIR$/1_BalancedParantheses/1_BalancedParantheses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2_QueueWithTwoStacks/2_QueueWithTwoStacks.iml" filepath="$PROJECT_DIR$/2_QueueWithTwoStacks/2_QueueWithTwoStacks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3_StacksAndQueues/3_StacksAndQueues.iml" filepath="$PROJECT_DIR$/3_StacksAndQueues/3_StacksAndQueues.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4_LinkedLists/4_LinkedLists.iml" filepath="$PROJECT_DIR$/4_LinkedLists/4_LinkedLists.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6_BinarySearchTree/6_BinarySearchTree.iml" filepath="$PROJECT_DIR$/6_BinarySearchTree/6_BinarySearchTree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7_Trees/7_Trees.iml" filepath="$PROJECT_DIR$/7_Trees/7_Trees.iml" />
+      <module fileurl="file://$PROJECT_DIR$/8_Tries/8_Tries.iml" filepath="$PROJECT_DIR$/8_Tries/8_Tries.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/HackerRank DS.iml" filepath="$PROJECT_DIR$/.idea/HackerRank DS.iml" />
+    </modules>
+  </component>
+</project>
