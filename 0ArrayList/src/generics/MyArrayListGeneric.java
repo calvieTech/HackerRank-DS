@@ -1,3 +1,5 @@
+package generics;
+
 import java.util.Arrays;
 
 // Space: O(n)
@@ -12,11 +14,10 @@ public class MyArrayListGeneric<E> {
         array = (E[]) new Object[capacity];
     }
 
-//    public MyArrayListGeneric(int sz) {
-//        size = sz;
-//        capacity = 2 * size;
-//        array = (E[]) new Object[size];
-//    }
+    public MyArrayListGeneric(int cap) {
+        capacity = cap;
+        array = (E[]) new Object[capacity];
+    }
 
     public void ensureExtraCapacity() {
         if(size >= capacity) {
