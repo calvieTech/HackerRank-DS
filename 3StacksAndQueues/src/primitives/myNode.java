@@ -7,4 +7,8 @@ public class myNode {
     public myNode(int d) {
         data = d;
     }
+
+    public String toString() {
+        return (" " + data);
+    }
 }

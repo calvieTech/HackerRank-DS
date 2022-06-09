@@ -5,7 +5,7 @@ import primitives.exceptions.FullQueueException;
 import primitives.interfaces.myQueueCircularArrayInterface;
 
 public class myQueueCircularArray implements myQueueCircularArrayInterface {
-    private static final int DEFAULT_CAPACITY = 6;
+    private static final int DEFAULT_CAPACITY = 15;
     int size;
     int[] array;
     int front; // index of the front element

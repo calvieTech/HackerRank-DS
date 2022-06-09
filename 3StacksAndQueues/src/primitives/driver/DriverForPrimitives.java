@@ -1,5 +1,6 @@
 package primitives.driver;
 
+import generics.myStackGeneric;
 import primitives.myDequeQueue;
 import primitives.myQueue;
 import primitives.myQueueCircularArray;
@@ -26,24 +27,23 @@ public class DriverForPrimitives {
 
     public static void driveQueueCircularArray() {
         myQueueCircularArray qca1 = new myQueueCircularArray();
-        System.out.println(qca1.getFront() + " " + qca1.getRear());
-        qca1.enqueue(6);
-        System.out.println(qca1.getFront() + " " + qca1.getRear());
-        qca1.enqueue(2);
-        System.out.println(qca1.getFront() + " " + qca1.getRear());
-        qca1.enqueue(9);
-        System.out.println(qca1.getFront() + " " + qca1.getRear());
         qca1.enqueue(5);
-        System.out.println(qca1.getFront() + " " + qca1.getRear());
+        qca1.enqueue(9);
+        qca1.enqueue(7);
+        qca1.enqueue(3);
+        qca1.enqueue(10);
         qca1.enqueue(4);
-        System.out.println(qca1.getFront() + " " + qca1.getRear());
-        qca1.print();
-        System.out.println(qca1.dequeue());
+        qca1.enqueue(7);
+        qca1.enqueue(2);
+        qca1.enqueue(6);
+        qca1.enqueue(8);
+        qca1.enqueue(10);
+        qca1.enqueue(5);
+        qca1.enqueue(3);
+        qca1.enqueue(2);
+        qca1.enqueue(13);
         System.out.println(qca1.size());
-        System.out.println(qca1.getFront() + " " + qca1.getRear());
-        qca1.print();
-        System.out.println(qca1.dequeue());
-        System.out.println(qca1.getFront() + " " + qca1.getRear());
+
         qca1.print();
     }
 
@@ -51,8 +51,7 @@ public class DriverForPrimitives {
 //        myQueue queue1 = new myQueue();
 //        myStack stack1 = new myStack();
 //        myDequeQueue deque1 = new myDequeQueue();
-
-        driveQueueCircularArray();
+//        driveQueueCircularArray();
 //        queue1.enqueue(2);
 //        queue1.enqueue(5);
 //        queue1.enqueue(3);
