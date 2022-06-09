@@ -1,18 +1,8 @@
+package primitives;
+
 public class myStack {
-    private static class Node {
-        Node next;
-        int data;
 
-        private Node(int d) {
-            data = d;
-        }
-        private void printData() {
-            System.out.print(this.data + " ");
-        }
-
-    }
-
-    private Node top;
+    private myNode top;
 
     public myStack() {
         top = null;
@@ -28,7 +18,7 @@ public class myStack {
     }
 
     public void push(int d) {
-        Node n = new Node(d);
+        myNode n = new myNode(d);
         n.next = top;
         top = n;
     }
@@ -41,9 +31,9 @@ public class myStack {
 
     public void print() {
         if(top == null) throw new NullPointerException("Cannot print an empty stack");
-        Node temp = top;
+        myNode temp = top;
         while(temp != null) {
-            temp.printData();
+            System.out.println(temp.data + " ");
             temp = temp.next;
         }
         System.out.println();
