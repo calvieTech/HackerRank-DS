@@ -28,6 +28,7 @@ public class DriverForPrimitives {
     public static void driveQueueCircularArray() {
         myQueueCircularArray qca1 = new myQueueCircularArray();
         qca1.enqueue(5);
+        System.out.println(qca1.size());
         qca1.enqueue(9);
         qca1.enqueue(7);
         qca1.enqueue(3);
@@ -41,13 +42,14 @@ public class DriverForPrimitives {
         qca1.enqueue(5);
         qca1.enqueue(3);
         qca1.enqueue(2);
-        qca1.enqueue(13);
         System.out.println(qca1.size());
+
 
         qca1.print();
     }
 
     public static void main(String[] args) {
+        driveQueueCircularArray();
 //        myQueue queue1 = new myQueue();
 //        myStack stack1 = new myStack();
 //        myDequeQueue deque1 = new myDequeQueue();

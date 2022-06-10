@@ -28,8 +28,8 @@ public class myQueueCircularArray implements myQueueCircularArrayInterface {
     }
 
     public void print() {
-        int i = 0;
-        while(i < size) {
+        int i = front;
+        while(i < rear) {
             System.out.print(array[i] + " ");
             ++i;
         }
@@ -73,12 +73,12 @@ public class myQueueCircularArray implements myQueueCircularArrayInterface {
     }
 
     public void enqueue(int data) {
-        if(size() == array.length) {
+        if(size == array.length) {
             throw new FullQueueException();
         } else {
             array[rear] = data;
-            ++size;
             rear = (rear + 1) % array.length;
+            ++size;
         }
     }
 
@@ -88,6 +88,7 @@ public class myQueueCircularArray implements myQueueCircularArrayInterface {
             throw new EmptyQueueException();
         } else {
             int oldElt = array[front];
+            array[front] = -1;
             front = (front + 1) % array.length;
             --size;
             return oldElt;

@@ -1,9 +1,21 @@
 package generics.driver;
 
+import generics.myQueueCircularArrayGeneric;
 import generics.myQueueGeneric;
 import generics.myStackGeneric;
 
 public class DriverForGenerics {
+
+    public static void driveQueueCircularArrayGeneric() {
+        myQueueCircularArrayGeneric<String> qcag1 = new myQueueCircularArrayGeneric<>(10);
+        qcag1.enqueue("Max");
+        qcag1.enqueue("Sam");
+        qcag1.enqueue("Tom");
+        qcag1.enqueue("Harry");
+        qcag1.print();
+        System.out.println(qcag1.dequeue());
+        qcag1.print();
+    }
     public static void driveStackGeneric() {
         myStackGeneric<String> sg1 = new myStackGeneric<>();
         sg1.push("Max");
@@ -14,7 +26,8 @@ public class DriverForGenerics {
         sg1.print();
     }
     public static void main(String[] args) {
-        driveStackGeneric();
+        driveQueueCircularArrayGeneric();
+//        driveStackGeneric();
 //        myQueueGeneric<String> queueGeneric1 = new myQueueGeneric<>();
 //        myQueueGeneric<String> queueGeneric2 = new myQueueGeneric<>();
 //        myQueueGeneric<Integer> queueGeneric3 = new myQueueGeneric<>();
